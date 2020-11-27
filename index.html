@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!--
+
+██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗                    
+██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝                    
+███████║███████║██████╔╝██████╔╝ ╚████╔╝                     
+██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝                      
+██║  ██║██║  ██║██║     ██║        ██║                       
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝                       
+                                                             
+██████╗ ██╗██████╗ ████████╗██╗  ██╗██████╗  █████╗ ██╗   ██╗
+██╔══██╗██║██╔══██╗╚══██╔══╝██║  ██║██╔══██╗██╔══██╗╚██╗ ██╔╝
+██████╔╝██║██████╔╝   ██║   ███████║██║  ██║███████║ ╚████╔╝ 
+██╔══██╗██║██╔══██╗   ██║   ██╔══██║██║  ██║██╔══██║  ╚██╔╝  
+██████╔╝██║██║  ██║   ██║   ██║  ██║██████╔╝██║  ██║   ██║   
+╚═════╝ ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+
+
+ █████╗ ██╗   ██╗ ██████╗███████╗██╗       ██╗
+██╔══██╗╚██╗ ██╔╝██╔════╝██╔════╝██║       ██║
+███████║ ╚████╔╝ ╚█████╗ █████╗  ██║       ██║
+██╔══██║  ╚██╔╝   ╚═══██╗██╔══╝  ██║       ╚═╝
+██║  ██║   ██║   ██████╔╝███████╗███████╗  ██╗
+╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚══════╝╚══════╝  ╚═╝
+
+
+-->
+<head>
+  	<meta charset="UTF-8">
+  	<title>Happy Birthday Aysel !</title>
+  	<link rel="stylesheet" href="./style.css">
+  	<link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  	<script type="text/javascript">
+    	$(document).ready(function(){
+      		$(".envelope").click(function(){
+        		$(".letter").delay(200).fadeIn();
+        		$("#sonra").delay(7000).fadeIn();
+      		});
+    	});
+  	</script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="envelope new">
+  <div class="front">
+    <div class="mail">
+      <p style="margin-bottom: 30px;">Happy Birthday!</p>
+      <p>Click me :)!</p>
+    </div>
+  </div>
+  <div class="back">
+    <div class="letter" style="display: none;">
+		<p style="margin: 0;"></p><p style="font-size: 15px; margin: 5px 0px 5px 0px;">
+			I wish you love, hope and everlasting joy and happiness. Sending you smiles for every moment of your special day… To wish you a day that brings the same kind of happiness and joy that you bring to everyone. How is it that everyone else just keeps getting older and we just keep getting more fun and awesome? Keep working that age-defying magic. This awesome woman has a birthday today and deserves the best of absolutely everything! Enjoy your birthday celebration. You deserve it :). Forget the past; look forward to the future, for the best things are yet to come. Many many happy returns of the day to the friend who has listened and stood with me in my difficult times ^^. I hope you shine bright the whole year. Happy Birthday to the Dearest One!<br/>
+			<strong style="color: red;">A</strong> is for Artistic, full of creativity,<br/>
+			<strong style="color: red;">Y</strong> is for Youth, eternally young at heart,<br/>
+			<strong style="color: red;">S</strong> is for Smart, a keen intellect,<br/>
+			<strong style="color: red;">E</strong> is for Elegant, so graceful,<br/>
+			<strong style="color: red;">L</strong> is for Leader, where you go others will follow.<br/>
+		</p>
+      <hr style="margin-bottom: 0;">
+      <div id="sonra" style="display: none; margin: 0; font-size: 1.5em;">
+        <div style="display: inline-block; margin-top: 2px; width: 44%;">
+          <p style="text-decoration: none; display: inline-block; margin: 0; margin-top: 3px; color: #ff616e; letter-spacing: 7px; font-size: 20px;">Best Wishes</p>
+          <img src="./heart.gif" class="myheart heartdiv">
+        </div>				
+        <p style="margin-top: 5.02px; display: inline-block; float: right; color: #ff616e; letter-spacing: 8px;">Goddamned Ulik</p>
+      </div>
+    </div>
+    <div class="flip left-flip"></div>
+    <div class="flip right-flip"></div>
+    <div class="flip bottom-flip"></div>
+    <div class="flip top-flip"></div>
+  </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.5/jquery.spritely.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
